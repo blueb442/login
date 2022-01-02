@@ -1,8 +1,67 @@
 <head>
+
+<style>
+h1 {
+font-family: sans-serif;
+text-align: center;
+margin-top: 20px;
+}
+
+h3 {
+margin-top: 40px;
+font-weight: bold;
+color: red;
+display: none;
+}
+</style>
+
+
+<script>
+
+      function login() {
+        
+var x = document.getElementById("uwu");
+var o = document.getElementById("fail");
+  if (o.style.display === "none") {
+    o.style.display = "block";
+  } else {
+    o.style.display = "none";
+      }
+        
+      }
+    
+
+</script>
+
+
 </head>
 
 <body>
 
-<input></input>
+<h1>
+Please log-in.
+</h1>
+
+<center>
+
+
+<p> LOGIN INSTRUCTIONS </p>
+<p>  To login to this web-site please type your username, e-mail, password, and 3 digit code recived in your e-mail after registering. Each entry should have no spaces, and are seperated by commas.  </p>
+<p> EXAMPLE: </p>
+<p>  blueb,harperssademailaddress@gmail.com,password,123  </p>
+
+<input>
+</input>
+
+<button id="uwu" onClick="login()">
+
+PRESS TO SUBMIT AND LOG-IN, MAY HAVE TO DOUBLE CLICK.
+
+</button>
+
+
+<h3 id="fail"> YOU HAVE FAILED. PLEASE TRY AGAIN. </h3>
+
+</center>
 
 </body>
